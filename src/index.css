@@ -1,8 +1,13 @@
-@import '../node_modules/flag-icon-css/css/flag-icons.min.css';
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&family=Exo+2:wght@400;700&display=swap');
+@import "../node_modules/flag-icon-css/css/flag-icons.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&family=Exo+2:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 :root {
-  font-family: Rajdhani,"Exo 2",sans-serif;
+  font-family: Rajdhani, "Exo 2", sans-serif;
   position: absolute;
   top: 0;
   left: 0;
@@ -54,6 +59,7 @@
         #021e18 0
       )
       0 0,
-    linear-gradient(90deg, #01130e 3%, #021e18 0, #021e18 97%, #01130e 0%) 0 0 #021e18;
+    linear-gradient(90deg, #01130e 3%, #021e18 0, #021e18 97%, #01130e 0%) 0 0
+      #021e18;
   background-size: 20px 30px;
 }

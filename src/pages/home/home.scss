@@ -1,55 +1,55 @@
-.maincon{
+.maincon {
+  position: relative;
+  margin-top: 70px;
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 60px;
+  color: white;
+
+  .head {
+    padding: 10px 10px;
     position: relative;
-    margin-top: 70px;
-    height: auto;
-    width: 100%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-bottom: 60px;
-    color: white;
+    height: 40px;
+    width: 80%;
+    border: 0.5px solid rgba(0, 128, 0, 0.201);
+  }
+  .fixlar {
+    width: 84.5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .fix {
+      border: 0.5px solid rgba(0, 128, 0, 0.201);
+      margin-top: 20px;
+      height: 120px;
+      width: 230px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
 
-    .head{
-        padding: 10px 10px;
-        position: relative;
+      .elements {
+        width: 230px;
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        height: 40px;
-        width: 80%;
-        border: 0.5px solid rgba(0, 128, 0, 0.201);
-    }
-    .fixlar{
-        width: 84.5%;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        .fix{
-            border: 0.5px solid rgba(0, 128, 0, 0.201);
-            margin-top: 20px;
-            height: 120px;
-            width: 230px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            position: relative;
-            
-            .elements{
-                width: 230px;
-                display: flex;
-                align-items: center;
-                gap: 2px;
+        gap: 2px;
 
-                svg{
-                    margin: 5px 5px;
-                    border-radius: 50px;
-                    padding: 8px 8px;
-                    border: 0.5px solid green;
-                    background-color: transparent;
-                    fill:greenyellow;
-                }
-            }
+        svg {
+          margin: 5px 5px;
+          border-radius: 50px;
+          padding: 8px 8px;
+          border: 0.5px solid green;
+          background-color: transparent;
+          fill: greenyellow;
         }
+      }
     }
+  }
 }
