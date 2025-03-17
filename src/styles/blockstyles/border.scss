@@ -1,0 +1,60 @@
+.corner {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 0.9px;
+    background: linear-gradient(to right, #00ffaa, transparent);
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 0.9px;
+        height: 20px;
+        background: linear-gradient(to bottom, #00ffaa, transparent);
+    }
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+
+    &::after {
+        top: 0;
+        left: 0;
+    }
+}
+
+.top-right {
+    transform: rotate(270deg);
+    bottom: 10px;
+    right: -10px;
+
+    &::after {
+        transform: rotate(180deg);
+        bottom: 0;
+        right: 100%;
+    }
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+
+    &::after {
+        transform: rotate(180deg);
+        bottom: 0;
+        left: 0;
+    }
+}
+
+.bottom-right {
+    top: 0;
+    transform: rotate(180deg);
+    right: 0;
+
+    &::after {
+        transform: rotate(180deg);
+        bottom: 0;
+        right: 100%;
+    }
+}

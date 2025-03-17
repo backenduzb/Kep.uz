@@ -1,0 +1,101 @@
+
+.footer-con {
+    margin-top: 100px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .deep-footer {
+        border: 0.5px solid #00ffaa1d;
+        padding: 20px;
+        height: 10px;
+        display: flex;
+        width: 89.2%;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgba(48, 193, 157, 0);
+        color: #ddd;
+        position: relative;
+    
+        
+    
+        h4 {
+            margin: 10px 0;
+            color: #00ffaa;
+            font-size: 24px;
+        }
+    
+        .text {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            p {
+                color: #00ffaa;
+                font-size: 14px;
+            }
+            svg {
+                fill: #00ffaa;
+            }
+        }
+    
+        .frameworks {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            p {
+                color: white;
+                font-size: 14px;
+            }
+            img {
+                vertical-align: middle;
+            }
+            svg {
+                fill: #009e69;
+            }
+        }
+    
+        .go-to {
+            color: #00ffaa;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    }
+    
+    
+    .footer-sub {
+        background-color: rgba(0, 0, 0, 0.622);
+        display: flex;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        padding: 30px 15px;
+        width: 90%;
+        gap: 10%;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+
+        .Kep-info {
+            width: 30%;
+
+            .logo {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                height: 10px;
+
+                p {
+
+                    top: 2px;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
+
